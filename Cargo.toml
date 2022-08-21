@@ -2,8 +2,10 @@
 name = "rdf-notes"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Raymond Skinner <reqpro@requaos.com>"]
+description = "Rust wasm experiment using graph store {in-memory|disk|remote} supporting RDF and sparql"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/requaos/rdf-notes"
 
 [lib]
 crate-type = ["cdylib"]
